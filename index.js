@@ -1,3 +1,3 @@
-module.exports = function(num) {
-  return parseInt(num, 2).toString(16);
+module.exports = function(bin) {
+  return parseInt(bin, 2).toString(16);
 };
